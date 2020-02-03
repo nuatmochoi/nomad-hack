@@ -24,3 +24,5 @@ def signup(request):
             return HttpResponseRedirect(reverse('book:login'))
         return render(request, "book/signup.html")
     return render(request, 'book/signup.html')
+
+# Add facebook social login below
